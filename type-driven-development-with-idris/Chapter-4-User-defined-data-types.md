@@ -42,3 +42,6 @@ refuel Bicycle impossible -- you can actually write this
 **Defining families of types**
 
 For `Vehicle`, there are two type definitions in one declaration (`Vehicle Pedal` and `Vehicle Petrol`). Dependent data types like `Vehicle` therefore referred as `families` of types, because you're defining multiple related types at the same time. The power source is an index of the `Vehicle` family. The index tells which `Vehicle` type we are referring to.
+
+- A _parameter_ is unchanged across the entire structure. i.e. every element of the vector has the same type
+- An _index_ may change across a structure. i.e. every subvector has different length
